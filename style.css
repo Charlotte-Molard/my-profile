@@ -1,0 +1,110 @@
+body {
+    background-color: #EAEDF0; /*light blue*/
+   	color: rgb(109, 136, 126);
+    font-family: 'Lora', serif;;
+    font-size: 17px;
+  
+}
+
+h1,h2,h3 {font-family: 'Shadows Into Light Two', cursive;
+	}
+h2,h3 {color: rgb(63, 137, 117); /*forest green*/
+	}
+
+h1 {
+	color: rgb(47, 77, 111);/*navy blue*/
+	font-weight: 900;
+	font-size: 32px;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 23px;
+	}
+
+p {
+	color: rgb(80, 90, 86); /*grey*/
+	font-weight: 400;
+	}
+
+a {
+	font-family: 'Shadows Into Light Two', cursive;
+	text-decoration: none;
+	color: rgb(157, 193, 210); /*baby blue*/
+	font-weight: 600;
+	font-size: 18px;
+	}
+a:hover {
+	color: rgb(47, 77, 111); /*navy blue*/
+	}
+
+
+
+/* Custom design with class */
+
+.container {
+	width: 600px;     /* Fix the width first*/
+	margin: 40px auto; /* Let CSS compute the same left & right margins automatically*/
+	}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+	}
+
+.img-circle{
+	border-radius: 50%;
+	}
+
+.btn-babyblue{
+	background-color: rgb(157, 193, 210); /*baby blue*/
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	}
+.btn-babyblue:hover {
+	background-color:rgb(47, 77, 111) ; /*navy blue*/
+	color: white;
+	}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+	}
+
+.list-inline i {
+	font-size: 50px;
+	color: #D5C8B6; /*sand color*/
+	}
+
+.list-inline i:hover {
+	color: rgb(47, 77, 111); /*navy blue*/
+	}
+
+/* Design adjustments using id */
+
+#introduction p{
+	margin-bottom: 40px;
+	}
+
+/* Responsive part */
+
+@media (max-width: 500px) {
+	.container{
+	width: 400px;
+	}
+@media (max-width: 760px) {
+	.container{
+	width: 600px;
+	}
+
+
+
